@@ -8,6 +8,15 @@ A simple library to help capture and report metrics to AWS Cloudwatch.
 
 This library is using boto3 to connect to AWS. Configuration for boto3 can be done in several ways, the one that works well for me is the environment variables approach. Here is the relevant section of the boto3 documentation for further reading: [Boto3 AWS Credentials Configuration](https://boto3.readthedocs.io/en/latest/guide/configuration.html#guide-configuration)
 
+__TL;DR__
+
+Have the following environment variables set, boto3 will automatically pick them up!
+
+- AWS_ACCESS_KEY_ID
+- AWS_SECRET_ACCESS_KEY
+- AWS_SESSION_TOKEN
+- AWS_DEFAULT_REGION
+
 ## Usage
 ### Import Library and Initialization
 
